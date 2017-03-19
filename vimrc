@@ -67,7 +67,6 @@ function! XTermPasteBegin()
   return ""
 endfunction
 
-<<<<<<< HEAD
 " Easier split navigations
 "
 " Down pane
@@ -103,3 +102,6 @@ set wildmenu
 
 " open ag.vim
 nnoremap ,a :Ag
+
+" Newline after bracket
+inoremap { {<CR><BS>}<Esc>ko
