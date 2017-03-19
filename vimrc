@@ -40,12 +40,13 @@ imap jj <ESC>
 " Spacing and Tab features for different languages
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2 expandtab
 autocmd Filetype scss setlocal ts=2 sts=2 sw=2 expandtab
+autocmd Filetype css setlocal ts=2 sts=2 sw=2 expandtab
 autocmd Filetype html.erb setlocal ts=2 sts=2 sw=2 expandtab
 autocmd Filetype eruby setlocal ts=2 sts=2 sw=2 expandtab
 autocmd Filetype html setlocal ts=2 sts=2 sw=2 expandtab
 autocmd Filetype javascript setlocal ts=4 sts=4 sw=4 expandtab
 
-" Match closing parenthesis 
+" Match closing parenthesis
 runtime macros/matchit.vim
 
 " Enable Pathogen plugin manager
@@ -65,3 +66,16 @@ function! XTermPasteBegin()
   set paste
   return ""
 endfunction
+
+" Easier split navigations
+"
+" Down pane
+nnoremap <C-J> <C-W><C-J>
+" Up pane
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" More Natural split opening
+set splitbelow
+set splitright
