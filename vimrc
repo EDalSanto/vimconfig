@@ -67,7 +67,6 @@ function! XTermPasteBegin()
   return ""
 endfunction
 
-<<<<<<< HEAD
 " Easier split navigations
 "
 " Down pane
