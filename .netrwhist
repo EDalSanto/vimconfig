@@ -1,13 +1,11 @@
 let g:netrw_dirhistmax  =10
-<<<<<<< HEAD
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/nfs/2016/e/edal-san/workspace/42/libft/includes'
-=======
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/ejds001/workspace/GustiLogistics/app/assets/stylesheets'
 let g:netrw_dirhist_2='/Users/ejds001/workspace/GustiLogistics/bin'
 let g:netrw_dirhist_3='/Users/ejds001/workspace/GustiLogistics/app/views/calendars'
 let g:netrw_dirhist_4='/Users/ejds001/workspace/GustiLogistics/app/views/products'
 let g:netrw_dirhist_5='/Users/ejds001/workspace/GustiLogistics/app/views/calendars'
 let g:netrw_dirhist_6='/Users/ejds001/workspace/ccp_braintree/test/test_data'
->>>>>>> 9903e212767833242a0711f7fc6ce83bb50f0bf0
+let g:netrw_dirhist_7='/Users/ejds001/workspace/interview/dox/dox_blog/app/views/articles'
+let g:netrw_dirhist_8='/Users/ejds001/workspace/interview/dox/dox_blog/spec/features'
+let g:netrw_dirhist_9='/Users/ejds001/workspace/interview/dox/dox_blog/app'

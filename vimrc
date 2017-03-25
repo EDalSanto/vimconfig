@@ -103,5 +103,11 @@ set wildmenu
 " open ag.vim
 nnoremap ,a :Ag
 
-" Newline after bracket
+" matching brackets
+set smarttab
+set autoindent
+set smartindent
 inoremap { {<CR><BS>}<Esc>ko
+
+" exit nested braces or brackets
+inoremap <C-j> <Esc>/[)}"'\]>]<CR>:nohl<CR>a
